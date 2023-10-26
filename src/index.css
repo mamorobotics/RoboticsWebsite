@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+h1 {
+    padding: 8px;
+    margin: 0;
+    color: white;
+}
+
+p {
+    padding: 8px;
+    margin: 0;
+    color: white;
+}
+
+article {
+    width: calc(100vw - 299.5px);
+    transform: translateX(229.5px);
+}
+
+* {
+    color: white;
+    font-family: 'Monda'
+}
+
+.sidebar {
+    position: absolute;
+    width: 229.5px;
+    height: 100vh;
+    background-color: rgb(53, 53, 53);
+}
+
+.sidebar>ul {
+    padding-left: 0%;
+    list-style: none;
+    list-style-position: outside;
+}
+
+.sidebar>ul>li {
+    padding: 8px;
+    color: white;
+}
+
+.sidebar>ul>li:hover {
+    background-color: black;
+}
+
+.sidebar>ul>li:hover>a {
+    color: white;
+}
+
+.sidebar>ul>li>a {
+    color: gray;
+    text-decoration: none;
+}
