@@ -6,9 +6,9 @@ import BottomBar from "./component-routes/bottombar";
 export default function Error() {
   return (
     <>
-      <div class="full-body">
+      <div className="full-body">
         <SideBar />
-        <div class="page-body">
+        <div className="page-body">
           <TopBar name="You shouldn't be here..." sub="Im sorry, but this page doesn't exist."/>
           <article>
             

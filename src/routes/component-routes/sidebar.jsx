@@ -3,8 +3,8 @@ import { Form, redirect, Link } from "react-router-dom";
 export default function SideBar() {
   return (
     <>
-        <div class="sidebar">
-          <img src="src/assets/logo.png"></img>
+        <div className="sidebar">
+          <img src="src/assets/logo.png" alt="MHS Robotics Logo" width="150px" height="174.163px"></img>
           <h2>MHS Robotics</h2>
           <ul>
               <li><Link to="/">Home</Link></li>

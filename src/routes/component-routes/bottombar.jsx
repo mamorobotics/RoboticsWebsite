@@ -3,7 +3,7 @@ import { Form, redirect, Link } from "react-router-dom";
 export default function BottomBar() {
   return (
     <>
-        <div class="bottombar">
+        <div className="bottombar">
             <ul>
                 <li>Created by the MHS Robotics Team</li>
                 <li><a href="https://www.mamkschools.org/">School</a></li>
