@@ -39,13 +39,12 @@ article {
 
 .page-body {
     width: 100%;
-    margin-left: 8px;
+    margin: 8px 8px 0 8px;
     display: flex;
     flex-direction: column;
 }
 
 .bottombar {
-    margin-right: 8px;
     margin-left: auto;
     margin-top: auto;
     padding: 5px;
@@ -78,7 +77,7 @@ article {
 .topbar {
     padding: .2rem 1rem 1rem 1rem;
     background-color: var(--accent-color);
-    border-radius: 0 0 0 1rem;
+    border-radius: 1rem 1rem 1rem 1rem;
 }
 
 .topbar>h1 {
@@ -93,37 +92,42 @@ article {
 }
 
 .sidebar {
+    position: sticky;
+    top: 8px;
+    margin-top: 8px;
+    border-radius: 0 1rem 0 0;
     min-width: 229.5px;
+    max-height: calc(100vh - 8px);
     background-color: var(--accent-color);
 }
 
-.sidebar>img {
+.sidebar img {
     width: 150px;
     transform: translateX(39.75px);
     padding-top: 8px;
 }
 
-.sidebar>ul>li:hover>* {
+.sidebar li:hover>* {
     color: var(--text-color);
 }
 
-.sidebar>h2 {
+.sidebar h2 {
     color: var(--team-color);
     text-align: center;
     margin: 0;
 }
 
-.sidebar>ul {
+.sidebar ul {
     padding-left: 0%;
     list-style: none;
     list-style-position: outside;
 }
 
-.sidebar>ul>li:hover {
+.sidebar li:hover {
     background-color: rgb(40, 40, 40);
 }
 
-.sidebar>ul>li>a {
+.sidebar a {
     padding: 8px;
     display: block;
     height: 100%;
