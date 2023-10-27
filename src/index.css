@@ -19,8 +19,6 @@ p {
 
 article {
     margin: 8px;
-    width: calc(100vw - 229.5px - 16px);
-    transform: translateX(229.5px);
 }
 
 ::-webkit-scrollbar {
@@ -29,15 +27,30 @@ article {
 }
 
 * {
-    overflow-x: hidden;
     color: rgb(231, 231, 231);
     font-family: 'Monda'
 }
 
+#root {
+    display: inline-flex;
+}
+
+.full-body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+}
+
+.page-body {
+    display: flex;
+    flex-direction: column;
+    width: calc(100vw - 229.5px);
+}
+
 .bottombar {
-    width: calc(100vw - (229.5px + 2rem));
+    margin-top: auto;
     padding: 1rem 1rem 8px 1rem;
-    transform: translateX(229.5px);
     background-color: rgb(44, 44, 44);
     border-radius: 1rem 1rem 0 0;
 }
@@ -62,8 +75,6 @@ article {
 }
 
 .topbar {
-    width: calc(100vw - (229.5px + 2rem));
-    transform: translateX(229.5px);
     padding: 3rem 1rem 3rem 1rem;
     background-color: rgb(44, 44, 44);
     border-radius: 0 0 1rem 1rem;
@@ -80,9 +91,7 @@ article {
 }
 
 .sidebar {
-    position: fixed;
     width: 229.5px;
-    height: 100vh;
     background-color: rgb(55, 55, 55);
 }
 
