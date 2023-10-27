@@ -1,11 +1,11 @@
 import { Form, redirect, Link } from "react-router-dom";
 
-export default function TopBar() {
+export default function TopBar({name, sub}) {
   return (
     <>
         <div class="topbar">
-            <img src=""></img>
-            <h1>MHS Robotics</h1>
+            <h1>{name}</h1>
+            <h2>{sub}</h2>
         </div>
     </>
   );

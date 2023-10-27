@@ -1,13 +1,13 @@
 import { Form, redirect, Link } from "react-router-dom";
 import SideBar from "./sidebar";
+import TopBar from "./topbar";
 
 export default function Error() {
   return (
     <>
       <SideBar />
       <article>
-        <h1>OOPS!</h1>
-        <p>I dont think you are supposed to be here!</p>
+        <TopBar />
       </article>
     </>
   );

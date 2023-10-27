@@ -5,7 +5,7 @@ body {
     margin: 0;
 }
 
-h1 {
+h2 & h1 {
     padding: 8px;
     margin: 0;
     color: white;
@@ -18,20 +18,92 @@ p {
 }
 
 article {
-    width: calc(100vw - 299.5px);
+    margin: 8px;
+    width: calc(100vw - 229.5px - 16px);
     transform: translateX(229.5px);
 }
 
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 0px;
+}
+
 * {
-    color: white;
+    overflow-x: hidden;
+    color: rgb(231, 231, 231);
     font-family: 'Monda'
 }
 
+.bottombar {
+    width: calc(100vw - (229.5px + 2rem));
+    padding: 1rem 1rem 8px 1rem;
+    transform: translateX(229.5px);
+    background-color: rgb(44, 44, 44);
+    border-radius: 1rem 1rem 0 0;
+}
+
+.bottombar>ul>li>a {
+    font-weight: 300;
+    color: rgb(150, 149, 149);
+    text-decoration: none;
+}
+
+.bottombar>ul>li {
+    padding-right: 3rem;
+    display: inline-block;
+}
+
+.bottombar>ul {
+    padding-left: 0%;
+    text-align: center;
+    margin: 0;
+    list-style: none;
+    list-style-position: outside;
+}
+
+.topbar {
+    width: calc(100vw - (229.5px + 2rem));
+    transform: translateX(229.5px);
+    padding: 3rem 1rem 3rem 1rem;
+    background-color: rgb(44, 44, 44);
+    border-radius: 0 0 1rem 1rem;
+}
+
+.topbar>h1 {
+    margin: 0;
+}
+.topbar>h2 {
+    font-size: 1em;
+    font-weight: 300;
+    color: rgb(171, 171, 171);
+    margin: 0;
+}
+
 .sidebar {
-    position: absolute;
+    position: fixed;
     width: 229.5px;
     height: 100vh;
-    background-color: rgb(53, 53, 53);
+    background-color: rgb(55, 55, 55);
+}
+
+.sidebar>img {
+    width: 150px;
+    transform: translateX(39.75px);
+    padding-top: 8px;
+}
+
+.sidebar>ul>li>* {
+    color: rgb(150, 149, 149);
+}
+
+.sidebar>ul>li:hover>* {
+    color: rgb(221, 221, 221);
+}
+
+.sidebar>h2 {
+    color: rgb(265, 100, 50);
+    text-align: center;
+    margin: 0;
 }
 
 .sidebar>ul {
@@ -46,14 +118,11 @@ article {
 }
 
 .sidebar>ul>li:hover {
-    background-color: black;
-}
-
-.sidebar>ul>li:hover>a {
-    color: white;
+    background-color: rgb(40, 40, 40);
 }
 
 .sidebar>ul>li>a {
-    color: gray;
+    font-weight: 300;
+    color: rgb(150, 149, 149);
     text-decoration: none;
 }

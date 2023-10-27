@@ -4,8 +4,8 @@ export default function SideBar() {
   return (
     <>
         <div class="sidebar">
-            <img src=""></img>
-            <h1>MHS Robotics</h1>
+            <img src="src/assets/logo.png"></img>
+            <h2>MHS Robotics</h2>
             <ul>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about-us">About Us</Link></li>
