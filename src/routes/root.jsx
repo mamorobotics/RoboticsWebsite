@@ -11,7 +11,7 @@ export default function Root() {
         <div class="page-body">
           <TopBar name="Mamaroneck High School Robotics" sub="FTC Team #8490 and MATE Tiger Sharks"/>
           <article>
-            
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. A id fugiat voluptatibus nam magnam velit culpa saepe eveniet necessitatibus. Odio deleniti quia recusandae doloribus atque, illo obcaecati dolorem ipsa hic.
           </article>
           <BottomBar />
         </div>
