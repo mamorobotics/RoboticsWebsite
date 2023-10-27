@@ -101,10 +101,6 @@ article {
     padding-top: 8px;
 }
 
-.sidebar>ul>li>* {
-    color: rgb(150, 149, 149);
-}
-
 .sidebar>ul>li:hover>* {
     color: rgb(221, 221, 221);
 }
@@ -121,16 +117,15 @@ article {
     list-style-position: outside;
 }
 
-.sidebar>ul>li {
-    padding: 8px;
-    color: white;
-}
-
 .sidebar>ul>li:hover {
     background-color: rgb(40, 40, 40);
 }
 
 .sidebar>ul>li>a {
+    padding: 8px;
+    display: block;
+    height: 100%;
+    width: 100%;
     font-weight: 300;
     color: rgb(150, 149, 149);
     text-decoration: none;
