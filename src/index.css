@@ -40,12 +40,12 @@ article {
 .page-body {
     width: 100%;
     margin-left: 8px;
-    margin-right: 8px;
     display: flex;
     flex-direction: column;
 }
 
 .bottombar {
+    margin-right: 8px;
     margin-left: auto;
     margin-top: auto;
     padding: 5px;
@@ -78,7 +78,7 @@ article {
 .topbar {
     padding: .2rem 1rem 1rem 1rem;
     background-color: var(--accent-color);
-    border-radius: 0 0 1rem 1rem;
+    border-radius: 0 0 0 1rem;
 }
 
 .topbar>h1 {
