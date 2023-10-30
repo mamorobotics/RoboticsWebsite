@@ -1,9 +1,12 @@
 import { Form, redirect, Link } from "react-router-dom";
+import React, { useState } from "react";
 
 export default function SideBar() {
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+  
   return (
     <>
-        <div className="sidebar">
+        <div className={sidebarOpen ? "sidebar" : "sidebar hidden"}>
           <img src="src/assets/logo.png" alt="MHS Robotics Logo" width="150px" height="174.163px"></img>
           <h2>MHS Robotics</h2>
           <ul>
@@ -15,6 +18,7 @@ export default function SideBar() {
               <li><Link to="/mate">MATE</Link></li>
           </ul>
         </div>
+        <button className="menu-button" onClick={() => {setSidebarOpen(!sidebarOpen); console.log(sidebarOpen)}}><span className="material-symbols-outlined">menu</span></button>
     </>
   );
 }

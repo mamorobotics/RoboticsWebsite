@@ -5,8 +5,35 @@ body {
     margin: 0;
 }
 
+@media only screen and (max-width: 600px) {
+    article {
+        border-radius: 1rem 0 0 1rem !important;
+        margin: 8px 0px !important;
+    }
+    .sidebar {
+        background-color: var(--background-color) !important;
+        position: fixed !important;
+        height: 100vh !important;
+        border-radius: 0 !important;
+        margin: 0 !important;
+    }
+    .menu-button {
+        display: block !important;
+    }
+    .hidden {
+        display: none;
+    }
+    .topbar {
+        padding-left: 3rem !important;
+    }
+}
+
 article {
-    margin: 8px;
+    border-radius: 1rem;
+    margin: 8px 8px 8px 0px;
+    padding: 8px 1rem;
+    height: 100%;
+    background-color: var(--dark-color);
 }
 
 ::-webkit-scrollbar {
@@ -16,6 +43,7 @@ article {
 
 * {
     --accent-color: rgb(44, 44, 44);
+    --dark-color: rgb(30, 30, 30);
     --background-color: black;
     --team-color: rgb(265, 100, 50);
     --text-color: rgb(231, 231, 231);
@@ -23,6 +51,20 @@ article {
 
     color: var(--text-color);
     font-family: 'Monda'
+}
+
+.menu-button {
+    display: none;
+    background: inherit;
+    border: none;
+    padding: 0;
+    position: absolute;
+    left: 1.3rem;
+    top: 1.3rem
+}
+
+.menu-button:hover>span {
+    color: var(--text-secondary-color);
 }
 
 #root {
