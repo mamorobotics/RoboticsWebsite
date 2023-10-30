@@ -13,6 +13,8 @@ body {
     .sidebar {
         background-color: var(--background-color) !important;
         position: fixed !important;
+        top: 0 !important;
+        max-height: 100vh !important;
         height: 100vh !important;
         border-radius: 0 !important;
         margin: 0 !important;
@@ -65,12 +67,16 @@ article {
 
 .menu-button {
     display: none;
-    background: inherit;
     border: none;
     padding: 0;
-    position: absolute;
-    left: 1.3rem;
-    top: 1.3rem
+    position: fixed;
+    left: 1rem;
+    top: 1rem;
+    border-radius: 8px;
+}
+
+.menu-button>span {
+    padding: 8px;
 }
 
 .menu-button:hover>span {

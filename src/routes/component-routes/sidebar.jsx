@@ -18,7 +18,7 @@ export default function SideBar() {
               <li><Link to="/mate">MATE</Link></li>
           </ul>
         </div>
-        <button className="menu-button" onClick={() => {setSidebarOpen(!sidebarOpen); console.log(sidebarOpen)}}><span className="material-symbols-outlined">menu</span></button>
+        <button className="menu-button" style={{background: sidebarOpen ? "var(--background-color)" : "var(--accent-color)"}} onClick={() => {setSidebarOpen(!sidebarOpen); console.log(sidebarOpen)}}><span className="material-symbols-outlined">menu</span></button>
     </>
   );
 }
