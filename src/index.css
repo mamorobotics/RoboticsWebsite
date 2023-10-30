@@ -28,6 +28,16 @@ body {
     }
 }
 
+@media only screen and (max-height: 600px) {
+    .sidebar h2 {
+        margin-top: 1rem !important;
+    }
+
+    .sidebar img {
+        display: none;
+    }
+}
+
 article {
     border-radius: 1rem;
     margin: 8px 8px 8px 0px;
