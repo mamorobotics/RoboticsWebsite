@@ -18,7 +18,8 @@ export default function SideBar() {
               <li><Link to="/mate">MATE</Link></li>
               <li><button className="lightmode-button" onClick={() => {
                 var body = document.getElementById("root");
-                if (body.getAttribute("class") == "dark") { body.setAttribute("class", "light"); } else { body.setAttribute("class", "dark"); }
+                if (localStorage.getItem('darkmode') == "dark") { localStorage.setItem('darkmode', "light"); } else { localStorage.setItem('darkmode', "dark"); }
+                document.getElementById("root").setAttribute("class", localStorage.getItem('darkmode'));
               }}><span className="material-symbols-outlined">contrast</span></button></li>
           </ul>
         </div>

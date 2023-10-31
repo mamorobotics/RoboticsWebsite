@@ -10,6 +10,11 @@ import Outreach from "./routes/outreach";
 import FTC from "./routes/ftc";
 import MATE from "./routes/mate";
 
+if (localStorage.getItem('darkmode') == null) {
+  localStorage.setItem('darkmode', "dark");
+}
+document.getElementById("root").setAttribute("class", localStorage.getItem('darkmode'));
+
 const router = createBrowserRouter([
   {
     path: "/",

@@ -15,8 +15,8 @@
     --dark-color: rgb(180, 180, 180);
     --background-color: rgb(156, 156, 156);
     --team-color: rgb(265, 100, 50);
-    --text-color: rgb(56, 56, 56);
-    --text-secondary-color: rgb(32, 32, 32);
+    --text-color: rgb(0, 0, 0);
+    --text-secondary-color: rgb(77, 77, 77);
     --highlight-color: rgb(160, 160, 160);
 }
 
@@ -90,6 +90,10 @@ article {
     background-color: inherit;
     border: none;
     padding: 0;
+}
+
+li:hover>.lightmode-button>span {
+    color: var(--text-color);
 }
 
 .lightmode-button>span {
