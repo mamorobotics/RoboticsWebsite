@@ -1,7 +1,7 @@
 import { Form, redirect, Link } from "react-router-dom";
-import SideBar from "./component-routes/sidebar";
-import TopBar from "./component-routes/topbar";
-import BottomBar from "./component-routes/bottombar";
+import SideBar from "./sidebar";
+import TopBar from "./topbar";
+import BottomBar from "./bottombar";
 
 export default function Root() {
   return (

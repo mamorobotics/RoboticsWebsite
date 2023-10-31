@@ -1,7 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
 
-body {
+#root.dark {
+    --accent-color: rgb(44, 44, 44);
+    --dark-color: rgb(30, 30, 30);
+    --background-color: black;
+    --team-color: rgb(265, 100, 50);
+    --text-color: rgb(231, 231, 231);
+    --text-secondary-color: rgb(150, 149, 149);
+    --highlight-color: rgb(40, 40, 40);
+}
+
+#root.light {
+    --accent-color: rgb(203, 203, 203);
+    --dark-color: rgb(180, 180, 180);
+    --background-color: rgb(156, 156, 156);
+    --team-color: rgb(265, 100, 50);
+    --text-color: rgb(56, 56, 56);
+    --text-secondary-color: rgb(32, 32, 32);
+    --highlight-color: rgb(160, 160, 160);
+}
+
+#root {
     background-color: var(--background-color);
+}
+
+body {
     margin: 0;
 }
 
@@ -59,15 +82,19 @@ article {
 }
 
 * {
-    --accent-color: rgb(44, 44, 44);
-    --dark-color: rgb(30, 30, 30);
-    --background-color: black;
-    --team-color: rgb(265, 100, 50);
-    --text-color: rgb(231, 231, 231);
-    --text-secondary-color: rgb(150, 149, 149);
-
     color: var(--text-color);
     font-family: 'Monda'
+}
+
+.lightmode-button {
+    background-color: inherit;
+    border: none;
+    padding: 0;
+}
+
+.lightmode-button>span {
+    color: var(--text-secondary-color);
+    padding: 8px;
 }
 
 .menu-button {
@@ -187,7 +214,7 @@ article {
 }
 
 .sidebar li:hover {
-    background-color: rgb(40, 40, 40);
+    background-color: var(--highlight-color);
 }
 
 .sidebar a {
