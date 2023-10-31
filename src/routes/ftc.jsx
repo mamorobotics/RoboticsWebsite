@@ -7,7 +7,7 @@ export default function FTC() {
   return (
     <>
       <div className="full-body">
-        <SideBar />
+        <SideBar logo="ftc"/>
         <div className="page-body">
           <TopBar name="FTC" sub="Team #8490"/>
           <article>

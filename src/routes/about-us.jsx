@@ -7,7 +7,7 @@ export default function AboutUs() {
   return (
     <>
       <div className="full-body">
-        <SideBar />
+        <SideBar logo="ftc"/>
         <div className="page-body">
           <TopBar name="About Us" sub="9 Years Of Robots"/>
           <article>

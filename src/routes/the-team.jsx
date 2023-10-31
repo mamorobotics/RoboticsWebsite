@@ -7,7 +7,7 @@ export default function TheTeam() {
   return (
     <>
       <div className="full-body">
-        <SideBar />
+        <SideBar logo="ftc"/>
         <div className="page-body">
           <TopBar name="The Team" sub="Alot of people all working on one robot"/>
           <article>

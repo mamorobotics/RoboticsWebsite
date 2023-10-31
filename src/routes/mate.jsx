@@ -7,7 +7,7 @@ export default function MATE() {
   return (
     <>
       <div className="full-body">
-        <SideBar />
+        <SideBar logo="mate"/>
         <div className="page-body">
           <TopBar name="MATE" sub="MHS Tiger Sharks"/>
           <article>

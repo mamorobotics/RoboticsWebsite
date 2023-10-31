@@ -7,7 +7,7 @@ export default function Root() {
   return (
     <>
       <div className="full-body">
-        <SideBar />
+        <SideBar logo="ftc"/>
         <div className="page-body">
           <TopBar name="Mamaroneck High School Robotics" sub="FTC Team #8490 and MATE Tiger Sharks"/>
           <article>

@@ -7,7 +7,7 @@ export default function Outreach() {
   return (
     <>
       <div className="full-body">
-        <SideBar />
+        <SideBar logo="ftc"/>
         <div className="page-body">
           <TopBar name="Outreach" sub="Improving our community along with the team"/>
           <article>

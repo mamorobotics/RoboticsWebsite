@@ -1,13 +1,14 @@
 import { Form, redirect, Link } from "react-router-dom";
 import React, { useState } from "react";
+import ftc_logo from '/assets/ftc-logo.png';
+import mate_logo from '/assets/mate-logo.png';
 
-export default function SideBar() {
+export default function SideBar({logo}) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
-  
   return (
     <>
         <div className={sidebarOpen ? "sidebar" : "sidebar hidden"}>
-          <img src="./assets/logo.png" alt="MHS Robotics Logo" width="150px" height="174.163px"></img>
+          <img src={logo == 'ftc' ? ftc_logo : mate_logo} alt="MHS Robotics Logo" width="150px" height="174.163px"></img>
           <h2>MHS Robotics</h2>
           <ul>
               <li><Link to="/">Home</Link></li>
