@@ -5,6 +5,12 @@ body {
     margin: 0;
 }
 
+@media only screen and (max-width: 600px) and (max-height: 600px) {
+    .sidebar h2 {
+        padding-left: 3rem !important;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     article {
         border-radius: 1rem 0 0 1rem !important;
