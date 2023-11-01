@@ -25,7 +25,7 @@ export default function SideBar({logo}) {
           </ul>
         </div>
         
-        <button className="menu-button" style={{background: sidebarOpen ? "var(--background-color)" : "var(--accent-color)"}} onClick={() => {setSidebarOpen(!sidebarOpen); console.log(sidebarOpen)}}><span className="material-symbols-outlined">menu</span></button>
+        <button className="menu-button" style={{background: sidebarOpen ? "var(--background-color)" : "var(--accent-color)"}} onClick={() => {setSidebarOpen(!sidebarOpen); }}><span className="material-symbols-outlined">menu</span></button>
     </>
   );
 }

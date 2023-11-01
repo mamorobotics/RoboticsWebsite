@@ -8,6 +8,7 @@ export default function BottomBar() {
                 <li>Created by the MHS Robotics Team</li>
                 <li><a href="https://www.mamkschools.org/">School</a></li>
                 <li><a href="https://www.instagram.com/mamk_robotics/">Instagram</a></li>
+                <li><a href="https://twitter.com/mamkrobotics">Twitter</a></li>
                 <li><a href="https://github.com/mamorobotics">Github</a></li>
             </ul>
         </div>
