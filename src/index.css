@@ -74,6 +74,8 @@ body {
     }
 
     .personcard:hover>.persontitle>p {
+        position: relative;
+        font-size: 0.8rem;
         display: block;
     }
 
@@ -202,7 +204,7 @@ li:hover>.lightmode-button>span {
     position: relative;
     overflow: hidden;
     display: flex;
-    width: 500px;
+    width: 400px;
     height: 266px;
     background-color: var(--accent-color);
     border-radius: 1rem;
@@ -211,12 +213,15 @@ li:hover>.lightmode-button>span {
 
 .personcard>.persontitle {
     padding: 8px;
-    max-width: 284px;
+    max-width: 184px;
 }
 
 .personcard>.persontitle>p {
+    position: absolute;
+    bottom: 0;
     margin: 0;
-    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    font-size: 0.7rem;
 }
 
 .personcard>.persontitle>h1 {
