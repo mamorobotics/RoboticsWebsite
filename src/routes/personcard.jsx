@@ -14,17 +14,15 @@ export default function PersonCard({src, name, title, description}) {
     //     </div>
     // </>
     <>
-      <div className="wholeCard">
-        <div className="personcard">
-          <div className="personCardInner">
-            <div className="personCardFront">
-              <img src={src} alt={name} width="200px" height="266px"></img>
-              <h1>{name}</h1>
-              <h2>{title}</h2>
-            </div>
-            <div className="personCardBack">
-              <p>{description}</p>
-            </div>
+      <div className="personcard">
+        <div className="personCardInner">
+          <div className="personCardFront">
+            <img src={src} alt={name} width="200px" height="266px"></img>
+            <h1>{name}</h1>
+            <h2>{title}</h2>
+          </div>
+          <div className="personCardBack">
+            <p>{description}</p>
           </div>
         </div>
       </div>

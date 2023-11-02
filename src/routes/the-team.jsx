@@ -14,7 +14,7 @@ export default function TheTeam() {
           <article>
             <h1 style={{marginTop: 0}}>Leadership: </h1>
             <div className="team-flex">
-              <PersonCard src="./assets/team-images/max-lazarus.png" name="Max Lazarous" title="General Manager" 
+              <PersonCard src="./assets/team-images/max-lazarus.png" name="Max Lazarus" title="General Manager" 
               description="Max is currently a junoir and has been a part of the team for 3 years, mostly contributing to the coding aspect of the team. He is also a part of the Mamaroneck High School sailing team."/>
               <PersonCard src="./assets/team-images/alondra-avila.jpg" name="Alondra Avila" title="Head of Documentation & Outreach" 
               description="Alondra is a senior and has been a part of the team for 4 years, working and organizing the documentation necessary to compete. Outside of robotics Alondra has a leadership role in MHS women's engineering club."/>
