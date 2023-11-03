@@ -25,7 +25,7 @@ export default function TheTeam() {
             </div>
             <h1 style={{marginTop: 0}}>Engineering: </h1>
             <div className="team-flex">
-              <PersonCard src="./assets/team-images/sam-sklar" name="Sam Sklar" title="Engineer" 
+              <PersonCard src="./assets/team-images/sam-sklar" name="Sam Sklar" title="Head of Assembely" 
               description="[DESRIPTION]"/>
               <PersonCard src="./assets/team-images/nate-metch" name="Nate Metch" title="Engineer" 
               description="[DESRIPTION]"/>
@@ -42,12 +42,20 @@ export default function TheTeam() {
             </div>
             <h1 style={{marginTop: 0}}>Coding: </h1>
             <div className="team-flex">
-              <PersonCard src="./assets/team-images/sam-sklar" name="Sam Sklar" title="Engineer" 
+              <PersonCard src="./assets/team-images/mustafa-khan" name="Mustafa Khan" title="Coder" 
               description="[DESRIPTION]"/>
             </div>
             <h1 style={{marginTop: 0}}>Documentation & Outreach: </h1>
             <div className="team-flex">
-              <PersonCard src="./assets/team-images/sam-sklar" name="Sam Sklar" title="Engineer" 
+              <PersonCard src="./assets/team-images/chloe-glazer" name="Chloe Glazer" title="Documentation & Outreach" 
+              description="[DESRIPTION]"/>
+              <PersonCard src="./assets/team-images/daniel-mccance" name="Daniel McCance" title="Documentation & Outreach" 
+              description="[DESRIPTION]"/>
+              <PersonCard src="./assets/team-images/maya-okochu" name="Maya Okochu" title="Documentation & Outreach" 
+              description="[DESRIPTION]"/>
+              <PersonCard src="./assets/team-images/elise-conto" name="Elise Contopoulos" title="Documentation & Outreach" 
+              description="Elise is currently a sophomore and joined the team this year. They enjoy the artsy side of documentation and outreach and in their free time enjoy riding horses."/>
+              <PersonCard src="./assets/team-images/sanjana-tata" name="Sanjana Tata" title="Documentation & Outreach" 
               description="[DESRIPTION]"/>
             </div>
           </article>
