@@ -4,6 +4,7 @@ import TopBar from "./topbar";
 import BottomBar from "./bottombar";
 
 export default function MATE() {
+  document.title = "MATE";
   return (
     <>
       <div className="full-body">

@@ -4,6 +4,7 @@ import TopBar from "./topbar";
 import BottomBar from "./bottombar";
 
 export default function AboutUs() {
+  document.title = "About Us";
   return (
     <>
       <div className="full-body">

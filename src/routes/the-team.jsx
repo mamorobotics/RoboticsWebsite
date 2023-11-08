@@ -5,6 +5,7 @@ import BottomBar from "./bottombar";
 import PersonCard from "./personcard";
 
 export default function TheTeam() {
+  document.title = "The Team";
   return (
     <>
       <div className="full-body">

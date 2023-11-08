@@ -4,6 +4,7 @@ import TopBar from "./topbar";
 import BottomBar from "./bottombar";
 
 export default function Error() {
+  document.title = "Error";
   return (
     <>
       <div className="full-body">

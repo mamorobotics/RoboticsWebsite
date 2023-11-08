@@ -4,6 +4,7 @@ import TopBar from "./topbar";
 import BottomBar from "./bottombar";
 
 export default function FTC() {
+  document.title = "FTC";
   return (
     <>
       <div className="full-body">
