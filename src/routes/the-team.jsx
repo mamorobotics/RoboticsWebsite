@@ -28,7 +28,7 @@ export default function TheTeam() {
             <div className="team-flex">
               <PersonCard src="./assets/team-images/sam-sklar" name="Sam Sklar" title="Head of Assembely" 
               description="[DESRIPTION]"/>
-              <PersonCard src="./assets/team-images/nate-metch" name="Nate Metch" title="Engineer" 
+              <PersonCard src="./assets/team-images/nate-metch" name="Nate Metsch" title="Engineer" 
               description="[DESRIPTION]"/>
               <PersonCard src="./assets/team-images/graham-welsh" name="Graham Welsh" title="Engineer" 
               description="[DESRIPTION]"/>
@@ -39,6 +39,8 @@ export default function TheTeam() {
               <PersonCard src="./assets/team-images/alex-lin" name="Alex Lin" title="Engineer" 
               description="[DESRIPTION]"/>
               <PersonCard src="./assets/team-images/greg-mirando" name="Greg Mirando" title="Engineer" 
+              description="[DESRIPTION]"/>
+              <PersonCard src="./assets/team-images/sophie-steinberg" name="Sophie Steinberg" title="Engineer" 
               description="[DESRIPTION]"/>
             </div>
             <h1 style={{marginTop: 0}}>Coding: </h1>
