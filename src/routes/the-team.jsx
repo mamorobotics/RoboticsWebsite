@@ -28,7 +28,7 @@ export default function TheTeam() {
             <div className="team-flex">
               <PersonCard src="./assets/team-images/sam-sklar" name="Sam Sklar" title="Head of Assembely" 
               description="[DESRIPTION]"/>
-              <PersonCard src="./assets/team-images/nate-metch" name="Nate Metsch" title="Engineer" 
+              <PersonCard src="./assets/team-images/nate-metch.png" name="Nate Metsch" title="Engineer"
               description="[DESRIPTION]"/>
               <PersonCard src="./assets/team-images/graham-welsh" name="Graham Welsh" title="Engineer" 
               description="[DESRIPTION]"/>
@@ -53,10 +53,14 @@ export default function TheTeam() {
             <div className="team-flex">
               <PersonCard src="./assets/team-images/mustafa-khan" name="Mustafa Khan" title="Coder" 
               description="[DESRIPTION]"/>
+              <PersonCard src="./assets/team-images/dylan-toland.jpg" name="Dylan Toland" title="Coder"
+              description="Dylan is currently a Senior at Mamaroneck High School. He is currently in his 2nd year of Robotics. He also enjoys skiing and volunteers during the winter months as a ski patroller at Belleayre Mountain in the Catskills."/>
+              <PersonCard src="./assets/team-images/christian-valdehueza.jpg" name="Christian Paul Valdehueza" title="Coder"
+              description="Christian Paul, I am a Junior at Mamaroneck High School, and I am in my 2nd year of Computer Science. I Used to be in Track and field last year, this year my only extra school activities is being part of the Computer Science Club this year, one thing I love about coding is to code games or websites after school and having fun with whatever I created."/>
             </div>
             <h1 style={{marginTop: 0}}>Documentation & Outreach: </h1>
             <div className="team-flex">
-              <PersonCard src="./assets/team-images/finn-glazer.png" name="Finn Glazer" title="Documentation & Outreach" 
+              <PersonCard src="./assets/team-images/finn-glazer.jpg" name="Finn Glazer" title="Documentation & Outreach"
               description="Finn is a Junior at Mamaroneck High School and has been on the robotics team for two years. He is also a writer for the Globe newspaper and has been taking computer science since Freshman year."/>
               <PersonCard src="./assets/team-images/daniel-mccance" name="Daniel McCance" title="Documentation & Outreach" 
               description="Danny is currently a Junior at Mamaroneck High School who has been in computer science for three years. He also is on the Mamaroneck Debate team and spends time tutoring younger age groups in coding."/>
@@ -65,7 +69,9 @@ export default function TheTeam() {
               <PersonCard src="./assets/team-images/elise-conto" name="Elise Contopoulos" title="Documentation & Outreach" 
               description="Elise is currently a sophomore and joined the team this year. They enjoy the artsy side of documentation and outreach and in their free time enjoy riding horses."/>
               <PersonCard src="./assets/team-images/sanjana-tata" name="Sanjana Tata" title="Documentation & Outreach" 
-              description="Sanjana is a junior at the Mamaroneck High School. She has taken 3 years of computer science and has done research in computationally based genomics. She is also part of the debate time and enjoys reading in her free time. "/>
+              description="Sanjana is a junior at the Mamaroneck High School. She has taken 3 years of computer science and has done research in computationally based genomics. She is also part of the debate time and enjoys reading in her free time."/>
+              <PersonCard src="./assets/team-images/sanjana-tata" name="Alex Tombleson" title="Documentation & Outreach"
+              description="Alex is currently a Senior at Mamaroneck High School, and is in her fourth year of the original science research program, with a focus on biomedical engineering. She is also the captain of the varsity Track team, and coaches gymnastics."/>
             </div>
           </article>
           <BottomBar />
