@@ -36,8 +36,8 @@ export default function TheTeam() {
               description="[DESRIPTION]"/>
               <PersonCard src="./assets/team-images/paolo-dapkins" name="Paolo Dapkins" title="Engineer" 
               description="[DESRIPTION]"/>
-              <PersonCard src="./assets/team-images/alex-lin" name="Alex Lin" title="Engineer" 
-              description="[DESRIPTION]"/>
+              <PersonCard src="./assets/team-images/alex-lin.jpg" name="Alex Lin" title="Engineer" 
+              description="Alex is currently a Junior at Mamaroneck High school and this is his 3rd year doing engineering. Alex is also part of the Mamaroneck High School Jazz band and track and field team. His favorite event is the 200m."/>
               <PersonCard src="./assets/team-images/greg-mirando" name="Greg Mirando" title="Engineer" 
               description="[DESRIPTION]"/>
               <PersonCard src="./assets/team-images/sophie-steinberg" name="Sophie Steinberg" title="Engineer" 
@@ -70,8 +70,10 @@ export default function TheTeam() {
               description="Elise is currently a sophomore and joined the team this year. They enjoy the artsy side of documentation and outreach and in their free time enjoy riding horses."/>
               <PersonCard src="./assets/team-images/sanjana-tata" name="Sanjana Tata" title="Documentation & Outreach" 
               description="Sanjana is a junior at the Mamaroneck High School. She has taken 3 years of computer science and has done research in computationally based genomics. She is also part of the debate time and enjoys reading in her free time."/>
-              <PersonCard src="./assets/team-images/sanjana-tata" name="Alex Tombleson" title="Documentation & Outreach"
+              <PersonCard src="./assets/team-images/aelx-tombleson" name="Alex Tombleson" title="Documentation & Outreach"
               description="Alex is currently a Senior at Mamaroneck High School, and is in her fourth year of the original science research program, with a focus on biomedical engineering. She is also the captain of the varsity Track team, and coaches gymnastics."/>
+              <PersonCard src="./assets/team-images/maria-aguilera.jpg" name="Maria K. Torres Aguilera" title="Documentation & Outreach"
+              description="Maria is currently a sophomore at Mamaroneck High School, and is in her 2nd year of robotics. She is also part of the Mamaroneck High School varsity swim team, and enjoys doing science research in OSR."/>
             </div>
           </article>
           <BottomBar />
