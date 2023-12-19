@@ -41,6 +41,10 @@ body {
     .personCardFront img {
         border-radius: 1rem !important;
         filter: blur(1px)brightness(.5);
+        max-width: 200px; 
+        max-height: 266px;
+        width: 100%;
+        height: 100%
     }
     .personCardBack p {
         font-size: .85rem;
