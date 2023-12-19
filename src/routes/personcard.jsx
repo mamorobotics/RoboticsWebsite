@@ -7,7 +7,7 @@ export default function PersonCard({src, name, title, description}) {
       <div className="personcard">
         <div className="personCardInner">
           <div className="personCardFront">
-            <img src={src} alt={name} width="200px" height="266px"></img>
+            <img src={src} alt={name} width="200px" height="266px" style="object-fit: cover;"></img>
             <div className="personCardTitle">
               <h1>{name}</h1>
               <h2>{title}</h2>
