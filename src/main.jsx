@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
+import { createHashRouter, Outlet, RouterProvider } from "react-router-dom";
 import Root from "./routes/root";
 import ErrorPage from "./routes/error-page";
 import "./index.css";
@@ -15,7 +15,7 @@ if (localStorage.getItem('darkmode') == null) {
 }
 document.getElementById("root").setAttribute("class", localStorage.getItem('darkmode'));
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Root />,
@@ -49,7 +49,7 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode basename="/RoboticsWebsite">
+  <React.StrictMode basename="/">
     <RouterProvider router={router} />
   </React.StrictMode>
 );
