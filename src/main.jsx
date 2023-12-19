@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createHashRouter, Outlet, RouterProvider } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Root from "./routes/root";
 import ErrorPage from "./routes/error-page";
 import "./index.css";
@@ -15,41 +15,17 @@ if (localStorage.getItem('darkmode') == null) {
 }
 document.getElementById("root").setAttribute("class", localStorage.getItem('darkmode'));
 
-const router = createHashRouter([
-  {
-    path: "/",
-    element: <Root />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/about-us",
-    element: <AboutUs />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/the-team",
-    element: <TheTeam />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/outreach",
-    element: <Outreach />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/ftc",
-    element: <FTC />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/mate",
-    element: <MATE />,
-    errorElement: <ErrorPage />,
-  },
-]);
-
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode basename="/">
-    <RouterProvider router={router} />
+  <React.StrictMode>
+    <HashRouter basename={process.env.PUBLIC_URL}>
+      <Routes>
+          <Route path="/" element={<Root />} />
+          <Route path="/about-us" element={ <AboutUs/> } />
+          <Route path="/the-team" element={<TheTeam />} />
+          <Route path="/outreach" element={<Outreach />} />
+          <Route path="/ftc" element={<FTC />} />
+          <Route path="/mate" element={<MATE />} />
+      </Routes>
+    </HashRouter>
   </React.StrictMode>
 );
