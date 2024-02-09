@@ -26,12 +26,12 @@ export default function TheTeam() {
             </div>
             <h1 style={{marginTop: 0}}>Engineering: </h1>
             <div className="team-flex">
-              <PersonCard src="https://raw.githubusercontent.com/mamorobotics/RoboticsWebsite/main/assets/team-images/sam-sklar" name="Sam Sklar" title="Head of Assembely" 
+              <PersonCard src="https://raw.githubusercontent.com/mamorobotics/RoboticsWebsite/main/assets/team-images/graham-welsh" name="Graham Welsh" title="Head of Assembely" 
+              description="[DESRIPTION]"/>
+              <PersonCard src="https://raw.githubusercontent.com/mamorobotics/RoboticsWebsite/main/assets/team-images/sam-sklar" name="Sam Sklar" title="Engineer" 
               description="[DESRIPTION]"/>
               <PersonCard src="https://raw.githubusercontent.com/mamorobotics/RoboticsWebsite/main/assets/team-images/nate-metch.png" name="Nate Metsch" title="Engineer"
               description="Nate is a Junior at MHS who is in the engineering program. During the FTC season he helps build the robot and 3D prints some of the parts that we designed for the robot. Outside of school he likes to 3D print a lot."/>
-              <PersonCard src="https://raw.githubusercontent.com/mamorobotics/RoboticsWebsite/main/assets/team-images/graham-welsh" name="Graham Welsh" title="Engineer" 
-              description="[DESRIPTION]"/>
               <PersonCard src="https://raw.githubusercontent.com/mamorobotics/RoboticsWebsite/main/assets/team-images/liam-delamora" name="Liam DeLaMora" title="Engineer" 
               description="[DESRIPTION]"/>
               <PersonCard src="https://raw.githubusercontent.com/mamorobotics/RoboticsWebsite/main/assets/team-images/paolo-dapkins" name="Paolo Dapkins" title="Engineer" 
