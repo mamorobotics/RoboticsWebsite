@@ -19,7 +19,7 @@ export default function TheTeam() {
               description="Max is currently a junior and has been a part of the team for 3 years, mostly contributing to the coding aspect of the team. He is also a part of the Mamaroneck High School sailing team."/>
               <PersonCard src="https://raw.githubusercontent.com/mamorobotics/RoboticsWebsite/main/assets/team-images/elise-carpenter.jpg" name="Elise Carpenter" title="Head of Engineering" 
               description="[DESCRIPTION]"/>
-              <PersonCard src="https://raw.githubusercontent.com/mamorobotics/RoboticsWebsite/main/assets/team-images/miles-conto.png" name="Miles Contopoulos" title="Head of Coding" 
+              <PersonCard src="https://raw.githubusercontent.com/mamorobotics/RoboticsWebsite/main/assets/team-images/miles-conto.jpg" name="Miles Contopoulos" title="Head of Coding" 
               description="Miles is currently a junior and has been a part of the team for 3 years, primarily working on the coding branch. He is also a member of the varsity track team and enjoys coding in his free time."/>
               <PersonCard src="https://raw.githubusercontent.com/mamorobotics/RoboticsWebsite/main/assets/team-images/alondra-avila.jpg" name="Alondra Avila" title="Head of Documentation & Outreach" 
               description="Alondra is a senior and has been a part of the team for 4 years, working and organizing the documentation necessary to compete. Outside of robotics Alondra has a leadership role in MHS women's engineering club."/>
