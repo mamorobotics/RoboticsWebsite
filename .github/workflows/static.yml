@@ -21,8 +21,11 @@ jobs:
     - name: Install Dependencies
       run: npm install
 
-    - name: Build React App
-      run: npm run build
+    - name: Install gh-pages
+      run: npm install gh-pages --save-dev
+
+    - name: Publish using gh-pages
+      run: npx gh-pages -d dist
 
   deploy:
     runs-on: ubuntu-latest
