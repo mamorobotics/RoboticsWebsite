@@ -13,7 +13,7 @@ export default function TheTeam() {
         <div className="space-y-2">
           <TopBar name="The Team" sub="A lot of people all working on one robot"/>
           <article className="mr-2 p-2 bg-[#272727] rounded-2xl">
-            <h1 style={{marginTop: 0}}>Leadership: </h1>
+            <h1 className="mt-0">Leadership: </h1>
             <div className="team-flex">
               <PersonCard src={"https://raw.githubusercontent.com/mamorobotics/RoboticsWebsite/main/assets/team-images/max-lazarus.png"} name="Max Lazarus" title="General Manager" 
               description="Max is currently a junior and has been a part of the team for 3 years, mostly contributing to the coding aspect of the team. He is also a part of the Mamaroneck High School sailing team."/>
@@ -24,7 +24,7 @@ export default function TheTeam() {
               <PersonCard src="https://raw.githubusercontent.com/mamorobotics/RoboticsWebsite/main/assets/team-images/alondra-avila.jpg" name="Alondra Avila" title="Head of Documentation & Outreach" 
               description="Alondra is a senior and has been a part of the team for 4 years, working and organizing the documentation necessary to compete. Outside of robotics Alondra has a leadership role in MHS women's engineering club."/>
             </div>
-            <h1 style={{marginTop: 0}}>Engineering: </h1>
+            <h1 className="mt-0">Engineering: </h1>
             <div className="team-flex">
               <PersonCard src="https://raw.githubusercontent.com/mamorobotics/RoboticsWebsite/main/assets/team-images/graham-welsh" name="Graham Welsh" title="Head of Assembely" 
               description="[DESRIPTION]"/>
@@ -51,7 +51,7 @@ export default function TheTeam() {
               <PersonCard src="https://raw.githubusercontent.com/mamorobotics/RoboticsWebsite/main/assets/team-images/mikey-mcmanus.jpg" name="Mikey McManus" title="Engineer" 
               description="Mikey is a Junior at Mamaroneck High School and in the 3rd year of engineering. He is also apart of the Mamaroneck High School, Cross Country, Hockey and Golf teams."/>
             </div>
-            <h1 style={{marginTop: 0}}>Coding: </h1>
+            <h1 className="mt-0">Coding: </h1>
             <div className="team-flex">
               <PersonCard src="https://raw.githubusercontent.com/mamorobotics/RoboticsWebsite/main/assets/team-images/mustafa-khan.jpg" name="Mustafa Khan" title="Coder" 
               description="Mustafa is currently a sophmore at Mamaroneck High School, in his second year of computer science and played a key role in the autonomous programs. Mustafa is also part of the MATE robotics club, in which he mostly contributed to the control software and CAD of the ROV. Outside of FTC, Mustafa is part of the MHS debate team, and is part of other computer science related initiatives."/>
@@ -60,7 +60,7 @@ export default function TheTeam() {
               <PersonCard src="https://raw.githubusercontent.com/mamorobotics/RoboticsWebsite/main/assets/team-images/christian-valdehueza.jpg" name="Christian Paul Valdehueza" title="Coder"
               description="Christian Paul, I am a Junior at Mamaroneck High School, and I am in my 2nd year of Computer Science. I Used to be in Track and field last year, this year my only extra school activities is being part of the Computer Science Club this year, one thing I love about coding is to code games or websites after school and having fun with whatever I created."/>
             </div>
-            <h1 style={{marginTop: 0}}>Documentation & Outreach: </h1>
+            <h1 className="mt-0">Documentation & Outreach: </h1>
             <div className="team-flex">
               <PersonCard src="https://raw.githubusercontent.com/mamorobotics/RoboticsWebsite/main/assets/team-images/finn-glazer.jpg" name="Finn Glazer" title="Documentation & Outreach"
               description="Finn is a Junior at Mamaroneck High School and has been on the robotics team for two years. He is also a writer for the Globe newspaper and has been taking computer science since Freshman year."/>
