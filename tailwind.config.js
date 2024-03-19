@@ -4,6 +4,12 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    extend: {
+      fontFamily: 
+      {
+        Monda: ['Monda', 'sans-serif']
+      },
+    },
   },
   plugins: [],
 }
