@@ -7,11 +7,11 @@ export default function Error() {
   document.title = "Error";
   return (
     <>
-      <div className="full-body">
+      <div className="bg-black dark:bg-black flex text-black dark:text-white py-2 space-x-2 h-screen">
         <SideBar logo="ftc"/>
-        <div className="page-body">
+        <div className="space-y-2">
           <TopBar name="You shouldn't be here..." sub="Im sorry, but this page doesn't exist."/>
-          <article>
+          <article className="mr-2 p-2 bg-[#272727] rounded-2xl">
             
           </article>
           <BottomBar />

@@ -10,14 +10,10 @@ import Outreach from "./routes/outreach";
 import FTC from "./routes/ftc";
 import MATE from "./routes/mate";
 
-if (localStorage.getItem('darkmode') == null) {
-  localStorage.setItem('darkmode', "dark");
-}
-document.getElementById("root").setAttribute("class", localStorage.getItem('darkmode'));
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <Routes>
           <Route path="/" element={<Root />} />
           <Route path="/about-us" element={ <AboutUs/> } />

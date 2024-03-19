@@ -8,11 +8,11 @@ export default function TheTeam() {
   document.title = "The Team";
   return (
     <>
-      <div className="full-body">
+      <div className="bg-black dark:bg-black flex text-black dark:text-white py-2 space-x-2 h-screen">
         <SideBar logo="ftc"/>
-        <div className="page-body">
+        <div className="space-y-2">
           <TopBar name="The Team" sub="A lot of people all working on one robot"/>
-          <article>
+          <article className="mr-2 p-2 bg-[#272727] rounded-2xl">
             <h1 style={{marginTop: 0}}>Leadership: </h1>
             <div className="team-flex">
               <PersonCard src={"https://raw.githubusercontent.com/mamorobotics/RoboticsWebsite/main/assets/team-images/max-lazarus.png"} name="Max Lazarus" title="General Manager" 
