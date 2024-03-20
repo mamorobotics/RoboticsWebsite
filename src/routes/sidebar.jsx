@@ -18,7 +18,7 @@ export default function SideBar({ logo }) {
         <h2 className="text-center text-2xl font-semibold text-team">
           MHS Robotics
         </h2>
-        <ul className="space-y-2 pl-2 pt-2 text-lg font-medium">
+        <ul className="space-y-4 pl-3 pt-6 text-lg font-medium text-black dark:text-gray-400">
           <li>
             <Link to="/">Home</Link>
           </li>
