@@ -7,7 +7,9 @@ export default function Error() {
     <>
       <Body sub="You shouldnt be here...">
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae ipsum unde assumenda ea asperiores commodi dolorum earum consequatur ducimus culpa!
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae ipsum
+          unde assumenda ea asperiores commodi dolorum earum consequatur ducimus
+          culpa!
         </p>
       </Body>
     </>

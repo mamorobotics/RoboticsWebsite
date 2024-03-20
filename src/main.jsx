@@ -10,18 +10,17 @@ import Outreach from "./routes/outreach";
 import FTC from "./routes/ftc";
 import MATE from "./routes/mate";
 
-
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <HashRouter>
       <Routes>
-          <Route path="/" element={<Root />} />
-          <Route path="/about-us" element={ <AboutUs/> } />
-          <Route path="/the-team" element={<TheTeam />} />
-          <Route path="/outreach" element={<Outreach />} />
-          <Route path="/ftc" element={<FTC />} />
-          <Route path="/mate" element={<MATE />} />
+        <Route path="/" element={<Root />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/the-team" element={<TheTeam />} />
+        <Route path="/outreach" element={<Outreach />} />
+        <Route path="/ftc" element={<FTC />} />
+        <Route path="/mate" element={<MATE />} />
       </Routes>
     </HashRouter>
-  </React.StrictMode>
+  </React.StrictMode>,
 );

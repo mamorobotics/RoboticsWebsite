@@ -6,16 +6,16 @@ import BottomBar from "./bottombar";
 export default function Body(props) {
   return (
     <>
-        <div className="bg-black dark:bg-black flex text-black dark:text-white py-2 space-x-2 min-h-screen font-Monda">
-            <SideBar logo="ftc"/>
-            <div className="space-y-2 w-full min-h-full">
-                <TopBar name={document.title} sub={props.sub}/>
-                <article className="mr-2 p-2 bg-[#272727] rounded-2xl">
-                    {props.children}
-                </article>
-                <BottomBar />
-            </div>
+      <div className="flex min-h-screen space-x-2 bg-black py-2 font-Monda text-black dark:bg-black dark:text-white">
+        <SideBar logo={props.mate ? "mate" : "ftc"} />
+        <div className="min-h-full w-full space-y-2">
+          <TopBar name={document.title} sub={props.sub} />
+          <article className="mr-2 rounded-2xl bg-[#272727] p-2">
+            {props.children}
+          </article>
+          <BottomBar />
         </div>
+      </div>
     </>
   );
 }
