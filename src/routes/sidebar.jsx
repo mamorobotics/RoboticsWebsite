@@ -7,7 +7,10 @@ export default function SideBar({ logo }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   return (
     <>
-      <div className="sticky top-2 max-h-[calc(100vh-1rem)] w-52 shrink-0 rounded-r-2xl bg-[#272727] max-sm:hidden">
+      <div
+        id="sidebar"
+        className="sticky top-2 z-10 max-h-[calc(100vh-1rem)] w-52 shrink-0 rounded-r-2xl bg-[#272727] max-sm:fixed max-sm:left-0 max-sm:hidden max-sm:h-screen"
+      >
         <img
           src={logo == "ftc" ? ftc_logo : mate_logo}
           alt="MHS Robotics Logo"
