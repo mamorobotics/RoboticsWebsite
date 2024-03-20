@@ -9,7 +9,7 @@ export default function TheTeam() {
       <Body sub="A lot of people all working on one robot">
         <div className="space-y-2">
           <h1 className="text-2xl">Leadership: </h1>
-          <div className="grid-cols-6 gap-2 max-sm:space-y-2 sm:grid">
+          <div className="grid-cols-6 gap-2 max-sm:space-y-2 sm:grid landscape:max-lg:grid-cols-2 landscape:max-lg:grid-cols-2">
             <PersonCard
               src={
                 "https://raw.githubusercontent.com/mamorobotics/RoboticsWebsite/main/assets/team-images/max-lazarus.png"
@@ -38,7 +38,7 @@ export default function TheTeam() {
             />
           </div>
           <h1 className="text-2xl">Engineering: </h1>
-          <div className="grid-cols-6 gap-2 max-sm:space-y-2 sm:grid">
+          <div className="grid-cols-6 gap-2 max-sm:space-y-2 sm:grid landscape:max-lg:grid-cols-2">
             <PersonCard
               src="https://raw.githubusercontent.com/mamorobotics/RoboticsWebsite/main/assets/team-images/graham-welsh"
               name="Graham Welsh"
@@ -113,7 +113,7 @@ export default function TheTeam() {
             />
           </div>
           <h1 className="my-4 text-2xl">Coding: </h1>
-          <div className="grid-cols-6 gap-2 max-sm:space-y-2 sm:grid">
+          <div className="grid-cols-6 gap-2 max-sm:space-y-2 sm:grid landscape:max-lg:grid-cols-2">
             <PersonCard
               src="https://raw.githubusercontent.com/mamorobotics/RoboticsWebsite/main/assets/team-images/mustafa-khan.jpg"
               name="Mustafa Khan"
@@ -134,7 +134,7 @@ export default function TheTeam() {
             />
           </div>
           <h1 className="my-4 text-2xl">Documentation & Outreach: </h1>
-          <div className="grid-cols-6 gap-2 max-sm:space-y-2 sm:grid">
+          <div className="grid-cols-6 gap-2 max-sm:space-y-2 sm:grid landscape:max-lg:grid-cols-2">
             <PersonCard
               src="https://raw.githubusercontent.com/mamorobotics/RoboticsWebsite/main/assets/team-images/finn-glazer.jpg"
               name="Finn Glazer"
