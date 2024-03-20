@@ -3,9 +3,9 @@ import { Form, redirect, Link } from "react-router-dom";
 export default function BottomBar() {
   return (
     <>
-      <div className="ml-auto w-fit rounded-l-2xl bg-[#272727]">
-        <ul className="flex flex-nowrap space-x-3 px-6 py-2">
-          <li className="font-semibold">Created by the MHS Robotics Team</li>
+      <div className="ml-auto w-fit rounded-l-2xl bg-[rgb(39,39,39)] px-4 py-2">
+        <p className="pr-3 font-semibold">Created by the MHS Robotics Team</p>
+        <ul className="flex space-x-3">
           <li>
             <a href="https://www.mamkschools.org/">School</a>
           </li>
