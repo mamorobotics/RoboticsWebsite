@@ -10,7 +10,7 @@ export default function Body(props) {
         <SideBar logo={props.mate ? "mate" : "ftc"} />
         <div className="min-h-full w-full space-y-2">
           <TopBar name={document.title} sub={props.sub} />
-          <article className="mr-4 rounded-2xl bg-[#e6e6e6] px-3 py-2 dark:bg-[#161616]">
+          <article className="mr-2 rounded-2xl bg-[#e6e6e6] px-3 py-2 dark:bg-[#161616]">
             {props.children}
           </article>
           <BottomBar />
