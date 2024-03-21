@@ -4,10 +4,10 @@ import React, { useState } from "react";
 export default function PersonCard({ src, name, title, description }) {
   return (
     <>
-      <div className="shadow-2xl">
+      <div className="shadow-2x text-[#eaeaea] dark:text-white">
         <div className="group relative w-full overflow-hidden rounded-2xl">
           <img
-            className="h-full w-full brightness-75 group-hover:brightness-50"
+            className="aspect-[4/5] h-full w-full brightness-75 group-hover:brightness-50"
             src={src}
             alt={name}
           ></img>
