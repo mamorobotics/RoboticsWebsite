@@ -8,7 +8,7 @@ export default function SideBar({ logo, sidebarOpen }) {
     <>
       <div
         className={
-          "sticky top-2 z-10 max-h-[calc(100vh-1rem)] w-52 shrink-0 rounded-r-2xl bg-[#cececf] max-sm:fixed max-sm:top-[calc(76px+1rem)] max-sm:h-[calc(100%-1.5rem-76px)] dark:bg-[#272727] " +
+          "sticky top-2 z-10 max-h-[calc(100vh-1rem)] w-52 shrink-0 rounded-r-2xl bg-[#cececf] max-sm:fixed max-sm:top-[4.5rem] max-sm:h-[calc(100%-5rem)] dark:bg-[#272727] " +
           (sidebarOpen ? "open-sidebar" : "close-sidebar")
         }
       >
