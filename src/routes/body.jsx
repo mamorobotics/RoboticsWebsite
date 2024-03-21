@@ -11,7 +11,7 @@ export default function Body(props) {
     <>
       <button
         onClick={() => setSidebarOpen(!sidebarOpen)}
-        className="fixed left-2 top-2 h-[76px] w-14 rounded-2xl bg-[#cececf] sm:hidden dark:bg-[#272727] "
+        className="fixed left-2 top-2 z-10 h-14 w-14 rounded-2xl bg-[#cececf] sm:hidden dark:bg-[#272727] "
       >
         <span className="material-symbols-outlined text-3xl text-team">
           menu
