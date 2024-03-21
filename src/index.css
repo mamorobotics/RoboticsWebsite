@@ -7,3 +7,29 @@
 :root {
   --team-color: rgb(265, 100, 50);
 }
+
+.open-sidebar {
+  animation: open-sidebar-anim 0.3s linear forwards;
+}
+
+.close-sidebar {
+  animation: close-sidebar-anim 0.3s linear forwards;
+}
+
+@keyframes open-sidebar-anim {
+  0% {
+    left: -13rem;
+  }
+  100% {
+    left: 0rem;
+  }
+}
+
+@keyframes close-sidebar-anim {
+  0% {
+    left: 0rem;
+  }
+  100% {
+    left: -13rem;
+  }
+}
